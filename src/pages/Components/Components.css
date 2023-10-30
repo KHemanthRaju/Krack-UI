@@ -1,0 +1,24 @@
+.components-list {
+  list-style: none;
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.components-list li {
+  border-radius: 5px;
+  background-color: lightgrey;
+  text-align: center;
+  list-style: none;
+  margin: 15px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.components-list li:hover {
+  background-color: var(--primary-dark);
+  color: var(--white-color);
+}

@@ -1,0 +1,90 @@
+.navbar {
+  padding: 0.2rem;
+  box-shadow: 0 8px 6px -6px var(--grey-color);
+  position: sticky;
+  height: 75px;
+  top: 0;
+  z-index: 10;
+  box-sizing: border-box;
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navbar .left-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.navbar .left-nav h2 {
+  color: var(--primary-dark);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .left-nav img {
+  height: 50px;
+}
+
+.navbar .right-nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navbar .right-nav i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.navbar .right-nav a {
+  color: var(--black-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar .right-nav a:hover {
+  color: var(--primary-dark);
+}
+
+.middle-nav {
+  width: 40%;
+}
+
+.searchbar {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchbar input {
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+button {
+  background-color: var(--primary-dark);
+  border: none;
+  padding: 0.5rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+}

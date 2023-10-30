@@ -1,0 +1,32 @@
+.alert {
+  border-radius: 5px;
+  padding: 0.625rem;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alert-success {
+  background-color: var(--success-bg-color);
+  color: var(--success-color);
+}
+
+.alert-info {
+  background-color: var(--info-bg-color);
+  color: var(--info-color);
+}
+
+.alert-warning {
+  background-color: var(--warning-bg-color);
+  color: var(--warning-color);
+}
+
+.alert-error {
+  background-color: var(--error-bg-color);
+  color: var(--error-color);
+}
+
+.fa-xmark {
+  cursor: pointer;
+}
